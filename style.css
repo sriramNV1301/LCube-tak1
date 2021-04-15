@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.second-title{
+    font-size: 100px;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+.first-title{
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    padding: 40px;
+    color: rgb(100, 121, 121);
+}
+
+#first{
+    text-align: center;
+    background-color:rgb(24, 27, 31);
+    color: white;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5%;
+    position: relative;
+}
+
+#first .LAR{
+    padding-bottom: 20px ;
+    margin-right: 16px;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: rgb(24, 27, 31);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#first .LAR:hover{
+    padding-bottom: 20px ;
+    margin-right: 16px;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(24, 27, 31);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#first .CU{
+    padding-bottom: 20px ;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(24, 27, 31);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#first .CU:hover{
+    padding-bottom: 20px ;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: rgb(24, 27, 31);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.line{
+    padding-top: 150px;
+    padding: 150px;
+    border-top: 3px solid white;
+}
