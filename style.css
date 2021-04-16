@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 html{
@@ -10,11 +18,65 @@ html{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.second-title{
-    font-size: 100px;
-    font-weight: normal;
-    padding-bottom: 40px;
+/* navigation bar starts */
+.navbar{
+    padding-top: 45px;
+    background-color: rgb(24, 27, 31);
 }
+
+nav{
+    height: 45px;
+    width: 100%;
+}
+
+.lefNav{
+    line-height: 45px;
+    margin-left: 2%;
+    color: rgb(24, 27, 31);
+    float: left;   
+}
+
+ul{
+    margin-left: 5%;
+}
+
+.rightNav{
+    float: right;
+    margin-right: 5%;
+}
+
+.phNo{
+    font-size: 2rem;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.phNo:hover{
+    font-size: 2rem;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu{
+    padding-left: 30px; 
+}
+
+/* navigation bar ends */
+
+#first{
+    text-align: center;
+    background-color:rgb(24, 27, 31);
+    color: white;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
 .first-title{
     font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
@@ -23,21 +85,17 @@ html{
     color: rgb(100, 121, 121);
 }
 
-#first{
-    text-align: center;
-    background-color:rgb(24, 27, 31);
-    color: white;
-    padding: 20px;
-}
-
-a{
-    text-decoration: none;
+.second-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 9rem;
+    font-weight: normal;
+    padding-bottom: 40px;
 }
 
 .container{
     min-height: 100vh;
     width: 100%;
-    display: flex;
+    display: inline-block ;
     align-items: center;
     justify-content: start;
     padding: 5%;
@@ -91,16 +149,13 @@ a{
 }
 
 .line{
-    padding-top: 150px;
+    padding-top: 100px;
     /* padding: 150px; */
     border-top: 3px solid white;
 }
 
 .secSecOF{
-    border: 1px solid rgb(24, 27, 31);
-    border-width: 50%;
     display: block;
-  
     font-size: 70px;
     font-weight: normal;
     padding-bottom: 40px;
@@ -110,8 +165,7 @@ a{
     font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: normal;
-    padding: 40px;
-    
+    padding-bottom: 40px;
     text-align: center;
     color: rgb(100, 121, 121);
 }
@@ -122,7 +176,125 @@ a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     padding: 40px;
+    margin: auto;
     display: flex;
     color: white;
+}
 
+.SerProv{
+    
+}
+
+#second{
+    background-color: rgb(24, 27, 31) ;
+    color: white;
+    text-align: center;
+}
+
+
+.secondSecContent{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-self: flex-start;
+    align-items: flex-start;
+    align-content: flex-start; */
+}
+
+table{
+    text-align: left;
+    /* padding: 10%; */
+}
+
+.icon{
+    justify-content: space-between;
+    align-self: left;
+}
+
+.column{
+    display: table-cell;
+    padding: 10px;
+    width: 33.3333%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.content-head{
+    font-size: 2.4rem;
+    justify-content: left;
+    padding-left: 4%;
+    margin: 10px;
+}
+
+.content-body{
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+
+.readmore{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+} 
+
+.readmore:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+} 
+
+/* Section 2 Over */
+
+
+.about{
+    display: flexbox;
+    padding-left: 7.4%;
+    padding-top: 14%;
+    font-size: 1.6rem;
+    color: rgb(134,137,118);
+}
+
+.content-cin{
+    padding-left: 7.4%;
+}
+
+.column1{
+    font-size: 7rem;
+}
+
+.column2{
+    font-size: 2.8rem;
+}
+
+.column2-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.but-about{
+    padding-bottom: 20px ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(24, 27, 31);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.but-about:hover{
+    padding-bottom: 20px ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 60px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
 }
