@@ -498,3 +498,53 @@ ul{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.people{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    padding-bottom: 200px;
+    
+}
+
+.card {
+    
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+    margin: 2%;
+}
+
+.quote{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+
+.img-card{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.auth{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 2.4rem;
+}
+
+.place{
+    padding-left: 50px;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 2rem;
+}
+  
+
+ 
