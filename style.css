@@ -26,6 +26,7 @@ body{
 /* navigation bar starts */
 .navbar{
     padding-top: 45px;
+    padding-bottom: 45px;
     background-color: rgb(24, 27, 31);
 }
 
